@@ -6,6 +6,7 @@ let spaces;
 let stars;
 
 for(let i = 1; i <= rows ; i++){
+    
     res = '';
 
     spaces = rows - i;
@@ -19,6 +20,5 @@ for(let i = 1; i <= rows ; i++){
         res += star;
     }
     console.log(res)
-
 }
 
