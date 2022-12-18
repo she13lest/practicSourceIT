@@ -9,7 +9,7 @@ let product2 = {
     price: '14$'
 }
 
-let objProp = (obj) => {
+const objProp = (obj) => {
     let res = []
     for(let value in obj) {
         res += [value]+ ' '
