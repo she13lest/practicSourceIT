@@ -6,4 +6,4 @@ const pow = (num1, num2) => {
       }
 }
 
-pow(2, 8)
+pow(2, 3)
